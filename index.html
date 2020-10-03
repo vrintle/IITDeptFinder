@@ -8,9 +8,9 @@
 	<div id="app">
 		<p>
 			<label for="rank">Your rank</label>
-			<input type="number" id="rank" v-model="rank">
-		</p><hr><br>
-		<sup>Data contributed by <a href="https://github.com/Aniruddha-Deb/IIT_dep_finder">Aniruddha-Deb</a>.</sup>
+			<input type="number" id="rank" v-model="rank"><br><br>
+			<sup>Data contributed by <a href="https://github.com/Aniruddha-Deb/IIT_dep_finder">Aniruddha-Deb</a>.</sup>
+		</p><hr>
 		<div v-for="clg in clgs">
 			<p v-if="clg[3] > rank">
 				<b>{{ clg[0] }}</b> - {{ clg[1] }}
