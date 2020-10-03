@@ -9,7 +9,9 @@
 		<label for="rank">Your rank</label>
 		<input type="number" id="rank" v-model="rank"><br><hr>
 		<div v-for="clg in clgs">
-			<p v-if="clg[3] > rank">{{ clg[0] }}: {{ clg[1] }}</p>
+			<p v-if="clg[3] > rank">
+				<b>{{ clg[0] }}</b> - {{ clg[1] }}
+			</p>
 		</div>
 	</div>
 	
