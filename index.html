@@ -7,7 +7,7 @@
 <body>
 	<div id="app">
 		<label for="rank">Your rank</label>
-		<input type="number" id="rank"><br><hr>
+		<input type="number" id="rank" v-model="rank"><br><hr>
 		<div v-for="clg in clgs">
 			<p v-if="clg[3] > rank">{{ clg[0] }}: {{ clg[1] }}</p>
 		</div>
