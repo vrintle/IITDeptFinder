@@ -1,7 +1,7 @@
 let app = new Vue({
 	el: '#app',
 	data: {
-		clgs: JSON.parse(`{ ["Bombay","Aerospace Engineering(BTech)",1071,2025],
+		clgs: JSON.parse(`[ ["Bombay","Aerospace Engineering(BTech)",1071,2025],
 ["Bombay","Chemical Engineering(BTech)",440,1679],
 ["Bombay","Civil Engineering(BTech)",747,2782],
 ["Bombay","Computer Science and Engineering(BTech)",1,63],
@@ -59,6 +59,6 @@ let app = new Vue({
 ["Madras","Engineering Physics(BTech)",1430,2458],
 ["Madras","Mechanical Engineering(BTech)",722,1891],
 ["Madras","Metallurgical and Materials Engineering(BTech)",3407,4720],
-["Madras","Naval Architecture and Ocean Engineering(BTech)",4463,5892] }`)
+["Madras","Naval Architecture and Ocean Engineering(BTech)",4463,5892] ]`)
 	}
 });
